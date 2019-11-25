@@ -51,7 +51,18 @@ However, it would be a bit of a problem when it comes to get it into a browser. 
 
 To avoid having doing this, the preferred approach is to bundle antlr4 with your parser code, using webpack.
 
-You can get [information on webpack here](https://webpack.github.io).
+
+
+
+
+
+
+
+
+
+
+
+get [information on webpack here](https://webpack.github.io).
 
 The steps to create your parsing code are the following:
  - generate your lexer, parser, listener and visitor using the antlr tool
@@ -66,7 +77,7 @@ You are now ready to bundle your parsing code as follows:
  
 This will produce a single js file containing all your parsing code. Easy to include in your web pages!
 
-If you can't use webpack, you can use the lib/require.js script which implements the Node.js 'require' function in brwsers.
+If you can't use webpack, you can use the lib/require.js script which implements the Node.js 'require' function in browsers.
 
 This script is provided by Torben Haase, and is NOT part of ANTLR JavaScript runtime.   
 
